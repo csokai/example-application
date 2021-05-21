@@ -11,5 +11,5 @@ func main() {
 		fmt.Fprintln(w, "Hello World.")
 	})
 	log.Fatalf("error: %s", http.ListenAndServe(":8080", nil))
-	fmt.println("My message.")
+	fmt.Fprintln(w, "My message.")
 }
