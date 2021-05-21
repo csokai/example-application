@@ -1,4 +1,5 @@
 package main
+import $PROJECT_ROOT
 
 import (
 	"fmt"
